@@ -1,0 +1,143 @@
+<div class="app-content">
+    <div class="menu-btn" (click)="show()"><img src="assets/menu.svg"></div>
+</div>
+ 
+ <div class="container">
+
+   <!-- HEADER -->
+   <div class="showcase" [ngStyle]="{backgroundImage:'url(assets/workbench.jpg)'}">
+      <div class="cover">
+        <a href="#" class="btn">
+            Hello I'm
+        </a>
+        <div class="client-name"><p>Olanipekun Oladeji</p></div>
+          <small class="stack">
+              Mobile App Developer 
+          </small>
+      </div>
+    </div>
+  
+  
+    <!-- about us -->
+    <section class="about-us" id="about">
+      <div class="img-me">
+        <img src="assets/me.jpg">
+      </div>
+  
+      <div class="card">
+        <div class="card-header">
+          About Me
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>
+              A detail – oriented individual seeking a challenging yet rewarding entry level job position in a progressive
+              organization that will provide an opportunity to utilize my skills, experiences and ability in professional
+              capacity. and I would consider myself highly motivated, responsible, value-oriented, optimistic, and a fast learner, possessing excellent
+              client-facing Skills, natural problem solving and analytical skills. I’m a Front end developer who conceptualizes original ideas to bring
+              simplicity and user-friendliness to complex UI designs. Solving business problems by transforming UI designs and ideas to well
+              arrange and neat codes that meets client’s needs as prescribed by the company policy/decision.
+            </p><br>
+            <footer class="blockquote-footer">I am <cite title="Source Title">Olanipekun Oladeji</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+  </section>
+  
+  <!-- Education session -->
+  <div class="Edu" id="education" [ngStyle]="{backgroundImage:'url(assets/education2.jpg)'}">
+      <div class="Education-container">
+        <h1>EDUCATION</h1>
+        <div class="school-1">
+            <div class="header">FEDERAL UNIVERSITY OF AGRICULTURE</div>
+            <div>BANKING AND FINANCE</div>
+            <div>2015 – 2019</div>
+        </div>
+        <div class="school-2">
+            <div class="header">FEDERAL POLYTECHNIC EDE</div>
+            <div>BANKING AND FINANCE</div>
+            <div>2011 – 2014</div>
+        </div>
+  
+        <div class="sec-sch">
+            <div class=" header">EMMANUEL COLLEGE</div>
+            <div>SSCE</div>
+            <div>2003 – 2009</div>
+        </div>
+      </div>
+  </div>
+  
+  <!-- Contact SESSION -->
+  
+  <div class="card" id="contact">
+    <h5 class="card-header">Contact Us</h5>
+    <div class="card-body">
+      <!-- <h5 class="card-title">Special title treatment</h5> -->
+      <p class="card-text">
+        <span>
+          <li>Olanipekunoladeji93@gmail.com</li>
+          <li>+2348165573487</li>
+          <li>oladeji93@twitter.com</li>
+          <li> https://linkedin.com/in/oladeji-michael-675542109</li>
+      </span>
+      </p><br>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Quick Chat
+      </button>
+  
+      <!--Quick chat Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Quick Chat</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              This is our watsapp quick chat line <b>08165573487</b>. <br><i>THANK YOU</i> 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- portfolio session -->
+  <section class="portfolio" id="portfolio" [ngStyle]="{backgroundImage:'url(assets/portfolio.jpg)'}">
+      <div class="folio" id="education">
+       <div class="Education-container">
+         <h1 class="port">PORTFOLIO</h1>
+         <div class="projects">
+           <div>
+             <ul>
+                 <li><a href="https://github.com/oladeji1993">https://github.com/oladeji1993</a></li>
+                 <li><a href="https://microcopy.netlify.app/">https://microcopy.netlify.app/</a></li>
+                 <li><a href="https://mydatasite.netlify.app/">https://mydatasite.netlify.app/</a></li>
+             </ul>
+         </div>
+         </div>
+       </div>
+     </div>
+    </section>
+  
+  
+  <!-- fotter -->
+  
+  <footer class="main-footer">
+      <div class="footer-inner">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a routerLink="/Skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#portfolio"  (click)="details()">porfolio</a></li>
+          </ul>
+      </div>
+  </footer>
+</div>
+

@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.menu-btn{
+    cursor: pointer;
+    position: absolute;
+    top:20px;
+    right:30px;
+    z-index:2;
+    display:none
+
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#fff;
+    color:#000;
+    font-size:15px;
+    line-height:1.5;
+}
+
+a{
+    color:#262626;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin: auto;
+}
+
+/*nav */
+
+.main-nav{
+ display:flex;
+ align-items: center;
+ height:60px;
+ padding:40px 50px;
+ font-size:13px;
+ justify-content: space-between;
+}
+
+.main-nav img{
+    width:30px
+
+}
+.main-nav ul{
+    display:flex;
+
+}
+
+.main-nav ul li{
+    padding:0 15px;
+
+}
+
+.main-nav ul li a{
+    padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover{
+   border-bottom: 2px solid #262626;
+    
+}
+
+.main-nav ul.main-menu{
+    flex:1;
+    margin-left:50px
+
+}
+
+
+.client-name p{
+    font-weight:bold;
+    /* color:rgb(112, 58, 58) */
+}
+
+.stack{
+    color: rgb(59, 4, 4);
+    background-color: #fff;
+    padding:10px;
+    font-weight:bold
+    
+}
+
+
+
+.btn{
+    cursor:pointer;
+    display:inline-block;
+    border:0;
+    font-weight: bold;
+    padding:10px 20px;
+    background:#262626;
+    color:#fff;
+    font-size: 15px;
+}
+
+.btn:hover{
+    opacity:0.9;
+}
+.right-menu li a i{
+    font-size: 20px;
+}
+
+@media(max-width:700px){
+
+    .right-menu li a i{
+        font-size: 20px;
+    }
+}
+
+/*background area*/
+
+.showcase{
+    width:100%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content: flex-end; */
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    opacity: 2;
+}
+
+
+.showcase h2, .showcase p{
+    margin-top:15px;
+    margin-bottom: 30px;
+}
+
+.showcase .btn{
+    margin-top:30px
+    
+}
+
+.cover{
+    margin-top:120px;
+}
+
+.showcase .btn{
+    margin-top:10%;
+    background-color: rgb(59, 4, 4);
+}
+
+.client-name p{
+    font-family:sans-serif;
+    font-size:2rem;
+    /* font-weight: bold; */
+}
+
+.cover small{
+    font-weight: lighter;
+    font-size:1.5rem
+}
+
+
+/* about us  */
+
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    grid-gap: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-us p {
+    font-family: Helvetica, sans-serif;
+}
+
+
+.img-me img{
+    text-align:center;
+    border-radius:50%;
+    border:15px solid rgb(224, 220, 220)
+}
+
+.blockquote p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top:20px;
+    line-height:0.8cm
+}
+
+
+/* EDUCATION SESSION */
+
+.Edu{
+    width:100%;
+    height:350px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-left:10px
+}
+
+.Education-container{
+    margin-top:20px;
+    /* margin-bottom: 30px; */
+}
+
+
+
+.Edu img{
+    margin-left:25px;
+}
+
+.school-1{
+    margin-bottom:40px;
+    
+}
+
+.header{
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.school-2{
+    margin-bottom:40px;
+}
+
+.Edu h1{ 
+    margin-top:10%; 
+    /* line-height:25px; */
+    color:brown;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+
+
+/* contact me */
+
+.card{
+    margin-top:5%;
+}
+.contact{
+    text-align:center;
+    /* padding-top:5%; */
+    /* margin-top:5%;
+    margin-bottom:5%; */
+}
+
+
+.skills-housing{
+    background:#fff;
+    padding: 30px 20px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:relative;
+    overflow:hidden;
+    box-shadow: 0 0 10px #00000070;
+   
+}
+ 
+.skills-housing ul {
+    margin:0px;
+    padding-left:10px;
+}
+ 
+ .skills-housing ul li{
+    padding: 5px 0;
+    font-family:monospace;      
+}
+
+/* portfolio */
+.portfolio{
+    margin-top:0%;
+}
+.projects li {
+    padding:10px
+}
+
+
+.folio{
+    width:100%;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+}
+
+.Education-container h1{
+    padding-bottom:15px;
+}
+/* .contact{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    grid-gap: 20px;
+    margin-bottom: 40px;
+    text-align: center; 
+    margin-top:7%;
+} */
+
+
+/* .contact-me-2 img{
+    width:70%;
+    height:auto
+}
+
+
+.my-contact{
+    padding:30px
+} */
+
+/*footer*/
+.main-footer{
+    background: rgba(187, 125, 125, 0.73);
+    margin-top:20px;
+    color:#fff;
+    font-size: 12px;
+    padding:0 20px;
+    width:100% !important
+}
+
+.port{
+    padding-top:20px
+}
+
+.footer-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px  0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-inner ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:4%;
+}
+
+.footer-inner i{
+    margin-right: 10px;
+}
+
+.main-footer div{
+    display: flex;
+    align-items: center;
+}
+
+.footer-inner li{
+    padding-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-inner li a{
+    color:#fff;
+}
+
+
+@media(max-width:700px){
+    .menu-btn{
+        display: block;
+    }
+
+    .menu-btn:hover{
+        opacity: 0.5;
+    }
+
+    .main-nav ul.main-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #f2f2f2;
+        width:70%;
+        height: 100vh;
+        transform: translateX(-500px);
+        border-right: #ccc 1px solid;
+        opacity: 0.9;
+        padding:30px;
+        margin-left:0px
+    }
+
+    .main-nav ul.main-menu li{
+        padding:10px;
+        border-bottom: #ccc 1px solid;
+        font-size: 14px;
+    }
+ 
+    .main-nav ul.main-menu li:last-child{
+        border-bottom: 0;
+    }
+
+    .main-nav ul.right-menu{
+        margin-right: 50px;
+    }
+
+
+    .main-nav .main-menu.show{
+        transform: translateY(-20px);
+    }
+}
+ 
+
+

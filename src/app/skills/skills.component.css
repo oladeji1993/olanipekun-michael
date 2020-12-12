@@ -1,0 +1,84 @@
+/* my skills session */
+
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin: auto;
+}
+
+.skills h1{
+    padding:0px 0px;   
+    line-height:25px;
+    padding-left:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.skill-container{
+    top:76%;
+    width:100%;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-right:10px;
+    margin-bottom:50px
+    
+
+}
+
+.col-1{
+    flex:40%;
+    padding:40px;
+    max-width:320px;
+    box-sizing: border-box;
+
+
+}
+
+.menu-btn img{
+    width:px;
+}
+
+.top{
+    text-align: center;
+    padding:15px;
+}
+.top p{
+    padding:20px;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.skills-housing{
+   background:#fff;
+   padding: 0px 20px; 
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position:relative;
+   overflow:hidden;
+   box-shadow: 0 0 10px #00000070;
+  
+}
+
+.skills-housing ul {
+    margin:0px;
+    padding-left:10px;
+}
+
+.skills-housing ul li{
+    padding: 5px 0;
+    font-family:monospace;      
+}
+
+.space{
+    padding-bottom:37px;
+}
+
+@media screen and (max-width:700px){
+    .col{
+        flex:100%;
+    }
+}
